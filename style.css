@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.s0,
+.s1,
+.s2 {
+    background-color: #1F2937;
+    display: flex;
+    flex: 1 1 80%;
+    padding: 0 10%;
+    align-items: center;
+}
+
+.secondary {
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.logo {
+    margin-right: auto;
+    font-size:  24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.s0 a {
+    margin-left: 2em;
+}
+
+.s1 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display:flex;
+    gap: 2em;
+}
+
+.s1-text {
+    margin-right: auto;
+}
+
+.s1 h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin:0;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 10px 24px;
+    border-radius: 10px;
+    border-style: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+img {
+    width: 300px;
+    height:fit-content;
+}
+
+.s2 {
+    background-color: white;
+    display: block;
+}
+
+.windows {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+.windows .secondary {
+    color: #1F2037;
+    text-align: center;
+}
+
+.s2 h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 1em;
+}
+
+.windows img {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 10%;
+}
+
+.window {
+    flex: 0 1 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
